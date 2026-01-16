@@ -50,9 +50,40 @@ docker compose down
 docker compose stop    
 
 Install git cli
-check 
-  git version
 
-  git config --global user.name "xxx"
+GIT COMMANDS REFERENCE
+======================
 
-  git config --global user.email "xxx@gmail.com"  
+1. git config --global user.name "username"
+   → Set global username
+   Example: git config --global user.name "xxx"
+
+2. git config --global user.email "email"
+   → Set global email
+   Example: git config --global user.email "xxx@gmail.com"
+
+3. git config --global user.name
+   → View current username
+
+4. git config --global user.email
+   → View current email
+
+5. git init
+   → Initialize a new Git repository
+
+6. git add .
+   → Stage all files for commit
+
+7. git commit -m "message"
+   → Commit staged changes with a message
+   Example: git commit -m "Initial commit"
+
+8. git branch -M main
+   → Rename current branch to "main"
+
+9. git remote add origin <url>
+   → Link local repo to remote repository
+   Example: git remote add origin https://github.com/mailmesalim/flask.git
+
+10. git push -u origin main
+    → Push to remote and set upstream tracking
